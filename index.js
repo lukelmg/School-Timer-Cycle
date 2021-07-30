@@ -158,7 +158,7 @@ var jsonString;
   jsonString = jsonString + '"nextDay":"' + filteredArray[2] + '"}'
 
   console.log(jsonString);
-  fs.writeFile('./cycle.json', jsonString, err => {
+  fs.writeFile('./public/cycle.json', jsonString, err => {
     if (err) {
       console.log(err);
     }
