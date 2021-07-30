@@ -5,7 +5,6 @@ var mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-var finalDay;
 var jsonString;
 
 (async () => {
@@ -98,7 +97,6 @@ var jsonString;
 
   var noMonthDay = [];
 
-  var forcast = [];
   var filteredArray = [];
 
   var combinedTest = [];
